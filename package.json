@@ -89,6 +89,7 @@
     ]
   },
   "devDependencies": {
+    "react-test-renderer": "^16.13.1",
     "ts-jest": "^24.3.0"
   }
 }
