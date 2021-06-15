@@ -26,7 +26,7 @@ module.exports = {
     "<rootDir>/src/**/__tests__/**/*.{js,jsx,ts,tsx}",
     "<rootDir>/src/**/*.{spec,test}.{js,jsx,ts,tsx}"
   ],
-  testEnvironment: "jest-environment-jsdom-fourteen",
+  testEnvironment: "jsdom",
   transformIgnorePatterns: [
     "[/\\\\]node_modules[/\\\\].+\\.(js|jsx|ts|tsx)$",
     "^.+\\.module\\.(css|sass|scss)$"

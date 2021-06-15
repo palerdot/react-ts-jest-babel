@@ -5,10 +5,10 @@
   "dependencies": {
     "@babel/core": "7.9.0",
     "@svgr/webpack": "4.3.3",
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
-    "@types/jest": "^24.0.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^13.1.9",
+    "@types/jest": "^26.0.23",
     "@types/node": "^12.0.0",
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
@@ -16,7 +16,7 @@
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
     "babel-eslint": "10.1.0",
-    "babel-jest": "^24.9.0",
+    "babel-jest": "^27.0.2",
     "babel-loader": "8.1.0",
     "babel-plugin-named-asset-import": "^0.3.6",
     "babel-preset-react-app": "^9.1.2",
@@ -37,10 +37,9 @@
     "fs-extra": "^8.1.0",
     "html-webpack-plugin": "4.0.0-beta.11",
     "identity-obj-proxy": "3.0.0",
-    "jest": "24.9.0",
-    "jest-environment-jsdom-fourteen": "1.0.1",
-    "jest-resolve": "24.9.0",
-    "jest-watch-typeahead": "0.4.2",
+    "jest": "^27.0.4",
+    "jest-resolve": "^27.0.4",
+    "jest-watch-typeahead": "^0.6.4",
     "mini-css-extract-plugin": "0.9.0",
     "node-sass": "^4.14.1",
     "optimize-css-assets-webpack-plugin": "5.0.3",
@@ -61,7 +60,7 @@
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "2.3.5",
     "ts-pnp": "1.1.6",
-    "typescript": "~3.7.2",
+    "typescript": "~4.1.5",
     "url-loader": "2.3.0",
     "webpack": "4.42.0",
     "webpack-dev-server": "3.10.3",
@@ -71,7 +70,7 @@
   "scripts": {
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
-    "test": "node scripts/test.js"
+    "test": "jest"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -90,6 +89,6 @@
   },
   "devDependencies": {
     "react-test-renderer": "^16.13.1",
-    "ts-jest": "^24.3.0"
+    "ts-jest": "^27.0.3"
   }
 }
