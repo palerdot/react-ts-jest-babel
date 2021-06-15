@@ -1,4 +1,9 @@
 module.exports = {
+  globals: {
+    'ts-jest': {
+      babelConfig: true,
+    },
+  },
   /**
    * You can use jsWithBabel preset provided by ts-jest so you don't need to define transform here. The preset jsWithBabel
    * will automatically define "^.+\\.jsx?$": "babel-jest" for you
