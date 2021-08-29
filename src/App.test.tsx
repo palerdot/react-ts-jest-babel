@@ -14,3 +14,9 @@ test('renders Title component', () => {
   const tree = renderer.create(<Title />).toJSON();
   expect(tree).toMatchSnapshot();
 });
+
+test('nullish operator assignment should work', () => {
+  const a: Record<string, number> = { duration: 50 };
+
+  expect( a.speed ??= 25).toEqual(25);
+});
